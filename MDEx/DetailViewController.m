@@ -37,13 +37,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+
     self.navigationItem.title = self.sName;
     [self.navigationController.navigationBar setBarTintColor:[Color nflBlue]];
 
     self.imageView.image = [UIImage imageWithData:self.sImageData];
     self.detailDescriptionLabel.text = self.self.sName;
     self.cityStateLabel.text = [NSString stringWithFormat:@"%@\n%@", self.sAddress, self.sCityStateZip];
-    NSLog(@"address: %@city state: %@", self.sAddress, self.sCityStateZip);
     if (self.sSchdeule) {
         for (NSDictionary *dates in self.sSchdeule) {
 

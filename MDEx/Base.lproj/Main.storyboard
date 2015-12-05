@@ -47,7 +47,7 @@
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2r0-Ah-GZV">
-                                <rect key="frame" x="20" y="64" width="560" height="226"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="226"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="226" id="EFs-bl-Taz"/>
                                 </constraints>
@@ -68,9 +68,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2r0-Ah-GZV" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" id="0h2-OL-pls"/>
-                            <constraint firstAttribute="trailing" secondItem="2r0-Ah-GZV" secondAttribute="trailing" constant="20" id="13P-5k-fHQ"/>
+                            <constraint firstAttribute="trailing" secondItem="2r0-Ah-GZV" secondAttribute="trailing" id="13P-5k-fHQ"/>
                             <constraint firstItem="nfG-QJ-EHM" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" constant="20" id="Gqi-L4-GQC"/>
-                            <constraint firstItem="2r0-Ah-GZV" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" constant="20" id="Rca-lp-5wl"/>
+                            <constraint firstItem="2r0-Ah-GZV" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="Rca-lp-5wl"/>
                             <constraint firstAttribute="trailing" secondItem="jLm-Nf-uqS" secondAttribute="trailing" constant="20" id="Tjl-oh-Sa5"/>
                             <constraint firstAttribute="trailing" secondItem="E6R-p3-q3x" secondAttribute="trailing" constant="20" id="V32-Ax-UKB"/>
                             <constraint firstItem="nfG-QJ-EHM" firstAttribute="top" secondItem="2r0-Ah-GZV" secondAttribute="bottom" constant="20" id="Ym3-w6-LDW"/>
